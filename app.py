@@ -49,10 +49,10 @@ CC =float(20)
 
 #Calculate GPA
 if st.button("Calculate GPA",type="primary"):
-GPA = round(CCPS/CC,2)
-st.info(f"Credit Points list: {CPS}")
-st.info(f"Cumaltive credit point:{CCPS}")
-st.metric(label="GPA", value=f"{GPA} / 10.0")
+     GPA = round(CCPS/CC,2)
+     st.info(f"Credit Points list: {CPS}")
+     st.info(f"Cumaltive credit point:{CCPS}")
+     st.metric(label="GPA", value=f"{GPA} / 10.0")
 
 
 
